@@ -62,7 +62,6 @@ namespace _421_Lab_1
             this.button1.Text = "Line";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-          //  this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // button2
             // 
@@ -90,6 +89,7 @@ namespace _421_Lab_1
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(130, 56);
             this.trackBar1.TabIndex = 4;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // trackBar2
             // 
@@ -98,6 +98,7 @@ namespace _421_Lab_1
             this.trackBar2.Name = "trackBar2";
             this.trackBar2.Size = new System.Drawing.Size(130, 56);
             this.trackBar2.TabIndex = 5;
+            this.trackBar2.Scroll += new System.EventHandler(this.trackBar2_Scroll);
             // 
             // trackBar3
             // 
@@ -106,6 +107,7 @@ namespace _421_Lab_1
             this.trackBar3.Name = "trackBar3";
             this.trackBar3.Size = new System.Drawing.Size(130, 56);
             this.trackBar3.TabIndex = 6;
+            this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
             // 
             // Form1
             // 

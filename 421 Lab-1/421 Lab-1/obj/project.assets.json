@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chibu\\source\\repos\\421 Lab-1\\421 Lab-1\\421 Lab-1.csproj",
+      "projectUniqueName": "C:\\Users\\chibu\\source\\repos\\421 Labs\\421-Labs\\421 Lab-1\\421 Lab-1\\421 Lab-1.csproj",
       "projectName": "421 Lab-1",
-      "projectPath": "C:\\Users\\chibu\\source\\repos\\421 Lab-1\\421 Lab-1\\421 Lab-1.csproj",
+      "projectPath": "C:\\Users\\chibu\\source\\repos\\421 Labs\\421-Labs\\421 Lab-1\\421 Lab-1\\421 Lab-1.csproj",
       "packagesPath": "C:\\Users\\chibu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chibu\\source\\repos\\421 Lab-1\\421 Lab-1\\obj\\",
+      "outputPath": "C:\\Users\\chibu\\source\\repos\\421 Labs\\421-Labs\\421 Lab-1\\421 Lab-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\chibu\\AppData\\Roaming\\NuGet\\NuGet.Config",
