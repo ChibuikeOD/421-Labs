@@ -35,7 +35,7 @@ namespace _421_Lab_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Tool = new Line();
+            Tool = new Line();
            // colorPen = new Pen(Color.Red);
             
         }
@@ -89,9 +89,9 @@ namespace _421_Lab_1
         public  Pen shape;
         public  Color shapeColor;
 
-        public void drawShape(Graphics g, Pen p, int oldx, int oldy, int newx, int newy)
+        public virtual void drawShape(Graphics g, Pen p, int oldx, int oldy, int newx, int newy)
         {
-            g.DrawLine(p, oldx, oldy, newx, newy);
+            
         }
         
 
@@ -105,7 +105,7 @@ namespace _421_Lab_1
             
         }
 
-        public new void  drawShape(Graphics g, Pen p,int oldx, int oldy, int newx, int newy)
+        public override void  drawShape(Graphics g, Pen p,int oldx, int oldy, int newx, int newy)
         {
             g.DrawLine(p, oldx, oldy, newx, newy);
         }
